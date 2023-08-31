@@ -1,0 +1,6 @@
+framework module Pods_AskhanaFinalTests {
+  umbrella header "Pods-AskhanaFinalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

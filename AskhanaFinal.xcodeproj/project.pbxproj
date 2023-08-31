@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B04F8D62847BE4E0095A87F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04F8D52847BE4E0095A87F /* CartViewController.swift */; };
+		4B04F8D82847CFE70095A87F /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04F8D72847CFE70095A87F /* CartTableViewCell.swift */; };
+		4B04F8DC28480A140095A87F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B04F8DB28480A140095A87F /* ProfileViewController.swift */; };
+		4B9601C52843789D00D4AFAC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9601C42843789D00D4AFAC /* RegisterViewController.swift */; };
+		4BC34197284937E900E2002E /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC34196284937E900E2002E /* CategoryCollectionViewCell.swift */; };
+		4BC3419928495BA200E2002E /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3419828495BA200E2002E /* OrdersViewController.swift */; };
+		4BC3419B2849DE2A00E2002E /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3419A2849DE2A00E2002E /* OrdersTableViewCell.swift */; };
+		4BC6E4BD28157138006EA564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4BC28157138006EA564 /* AppDelegate.swift */; };
+		4BC6E4BF28157138006EA564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4BE28157138006EA564 /* SceneDelegate.swift */; };
+		4BC6E4C128157138006EA564 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4C028157138006EA564 /* LoginViewController.swift */; };
+		4BC6E4C428157138006EA564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6E4C228157138006EA564 /* Main.storyboard */; };
+		4BC6E4C728157138006EA564 /* AskhanaFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4C528157138006EA564 /* AskhanaFinal.xcdatamodeld */; };
+		4BC6E4C92815713A006EA564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6E4C82815713A006EA564 /* Assets.xcassets */; };
+		4BC6E4CC2815713A006EA564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6E4CA2815713A006EA564 /* LaunchScreen.storyboard */; };
+		4BC6E4D72815713A006EA564 /* AskhanaFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4D62815713A006EA564 /* AskhanaFinalTests.swift */; };
+		4BC6E4E12815713A006EA564 /* AskhanaFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4E02815713A006EA564 /* AskhanaFinalUITests.swift */; };
+		4BC6E4E32815713A006EA564 /* AskhanaFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4E22815713A006EA564 /* AskhanaFinalUITestsLaunchTests.swift */; };
+		4BC6E4F02816135E006EA564 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4EF2816135E006EA564 /* TabController.swift */; };
+		4BC6E4F22816B592006EA564 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4F12816B592006EA564 /* MenuViewController.swift */; };
+		4BC6E4F42816B658006EA564 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4F32816B658006EA564 /* FoodDetailViewController.swift */; };
+		4BC6E4F62816C369006EA564 /* FoodDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4F52816C369006EA564 /* FoodDetailTableViewCell.swift */; };
+		4BC6E4F82816CE07006EA564 /* FoodNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4F72816CE07006EA564 /* FoodNetworkingService.swift */; };
+		4BC6E4FA2816E2A0006EA564 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6E4F92816E2A0006EA564 /* MealDetailViewController.swift */; };
+		7CC8ED632817CD8C005D74F0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8ED622817CD8C005D74F0 /* NetworkService.swift */; };
+		7CC8ED662817D060005D74F0 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8ED652817D060005D74F0 /* RequestProvider.swift */; };
+		9CD3E3316885BF4D6A8B8477 /* Pods_AskhanaFinal_AskhanaFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48788E1A342218BE45FBFCC3 /* Pods_AskhanaFinal_AskhanaFinalUITests.framework */; };
+		B1FA59BA80AB81820D576DD0 /* Pods_AskhanaFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26F2702CD64D58E04F6FF41 /* Pods_AskhanaFinalTests.framework */; };
+		D880EAAB2A2319CB9294C28F /* Pods_AskhanaFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED9E65FD184C479BDC6ABC /* Pods_AskhanaFinal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BC6E4D32815713A006EA564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC6E4B128157138006EA564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC6E4B828157138006EA564;
+			remoteInfo = AskhanaFinal;
+		};
+		4BC6E4DD2815713A006EA564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC6E4B128157138006EA564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC6E4B828157138006EA564;
+			remoteInfo = AskhanaFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128850847C5FBA4252C41B92 /* Pods-AskhanaFinal-AskhanaFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinal-AskhanaFinalUITests.release.xcconfig"; path = "Target Support Files/Pods-AskhanaFinal-AskhanaFinalUITests/Pods-AskhanaFinal-AskhanaFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B2DF7DBD1464557298A474D /* Pods-AskhanaFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinalTests.debug.xcconfig"; path = "Target Support Files/Pods-AskhanaFinalTests/Pods-AskhanaFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E37170DC122EDCB3790E36E /* Pods-AskhanaFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinal.debug.xcconfig"; path = "Target Support Files/Pods-AskhanaFinal/Pods-AskhanaFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		4146A492A8494B09439C7CF3 /* Pods-AskhanaFinal-AskhanaFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinal-AskhanaFinalUITests.debug.xcconfig"; path = "Target Support Files/Pods-AskhanaFinal-AskhanaFinalUITests/Pods-AskhanaFinal-AskhanaFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48788E1A342218BE45FBFCC3 /* Pods_AskhanaFinal_AskhanaFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskhanaFinal_AskhanaFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B04F8D52847BE4E0095A87F /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		4B04F8D72847CFE70095A87F /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		4B04F8DB28480A140095A87F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4B9601C42843789D00D4AFAC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		4BC34196284937E900E2002E /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BC3419828495BA200E2002E /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		4BC3419A2849DE2A00E2002E /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		4BC6E4B928157138006EA564 /* AskhanaFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskhanaFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC6E4BC28157138006EA564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC6E4BE28157138006EA564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BC6E4C028157138006EA564 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4BC6E4C328157138006EA564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC6E4C628157138006EA564 /* AskhanaFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AskhanaFinal.xcdatamodel; sourceTree = "<group>"; };
+		4BC6E4C82815713A006EA564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC6E4CB2815713A006EA564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC6E4CD2815713A006EA564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC6E4D22815713A006EA564 /* AskhanaFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskhanaFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC6E4D62815713A006EA564 /* AskhanaFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskhanaFinalTests.swift; sourceTree = "<group>"; };
+		4BC6E4DC2815713A006EA564 /* AskhanaFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskhanaFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC6E4E02815713A006EA564 /* AskhanaFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskhanaFinalUITests.swift; sourceTree = "<group>"; };
+		4BC6E4E22815713A006EA564 /* AskhanaFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskhanaFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BC6E4EF2816135E006EA564 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		4BC6E4F12816B592006EA564 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4BC6E4F32816B658006EA564 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		4BC6E4F52816C369006EA564 /* FoodDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailTableViewCell.swift; sourceTree = "<group>"; };
+		4BC6E4F72816CE07006EA564 /* FoodNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodNetworkingService.swift; sourceTree = "<group>"; };
+		4BC6E4F92816E2A0006EA564 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		7CC8ED622817CD8C005D74F0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7CC8ED652817D060005D74F0 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		89216599F5B292E9815EC32C /* Pods-AskhanaFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinal.release.xcconfig"; path = "Target Support Files/Pods-AskhanaFinal/Pods-AskhanaFinal.release.xcconfig"; sourceTree = "<group>"; };
+		EDED9E65FD184C479BDC6ABC /* Pods_AskhanaFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskhanaFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26F2702CD64D58E04F6FF41 /* Pods_AskhanaFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskhanaFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ED98093BB011ECC63BC223 /* Pods-AskhanaFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskhanaFinalTests.release.xcconfig"; path = "Target Support Files/Pods-AskhanaFinalTests/Pods-AskhanaFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC6E4B628157138006EA564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D880EAAB2A2319CB9294C28F /* Pods_AskhanaFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4CF2815713A006EA564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA59BA80AB81820D576DD0 /* Pods_AskhanaFinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4D92815713A006EA564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD3E3316885BF4D6A8B8477 /* Pods_AskhanaFinal_AskhanaFinalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2919AA0B12D37394F1957430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDED9E65FD184C479BDC6ABC /* Pods_AskhanaFinal.framework */,
+				48788E1A342218BE45FBFCC3 /* Pods_AskhanaFinal_AskhanaFinalUITests.framework */,
+				F26F2702CD64D58E04F6FF41 /* Pods_AskhanaFinalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		297AA8D049169E8574464600 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E37170DC122EDCB3790E36E /* Pods-AskhanaFinal.debug.xcconfig */,
+				89216599F5B292E9815EC32C /* Pods-AskhanaFinal.release.xcconfig */,
+				4146A492A8494B09439C7CF3 /* Pods-AskhanaFinal-AskhanaFinalUITests.debug.xcconfig */,
+				128850847C5FBA4252C41B92 /* Pods-AskhanaFinal-AskhanaFinalUITests.release.xcconfig */,
+				3B2DF7DBD1464557298A474D /* Pods-AskhanaFinalTests.debug.xcconfig */,
+				F8ED98093BB011ECC63BC223 /* Pods-AskhanaFinalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B04F8D9284806450095A87F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4F52816C369006EA564 /* FoodDetailTableViewCell.swift */,
+				4B04F8D72847CFE70095A87F /* CartTableViewCell.swift */,
+				4BC34196284937E900E2002E /* CategoryCollectionViewCell.swift */,
+				4BC3419A2849DE2A00E2002E /* OrdersTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4B04F8DA2848066C0095A87F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4C028157138006EA564 /* LoginViewController.swift */,
+				4BC6E4EF2816135E006EA564 /* TabController.swift */,
+				4BC6E4F12816B592006EA564 /* MenuViewController.swift */,
+				4BC6E4F32816B658006EA564 /* FoodDetailViewController.swift */,
+				4BC6E4F92816E2A0006EA564 /* MealDetailViewController.swift */,
+				4B9601C42843789D00D4AFAC /* RegisterViewController.swift */,
+				4B04F8D52847BE4E0095A87F /* CartViewController.swift */,
+				4B04F8DB28480A140095A87F /* ProfileViewController.swift */,
+				4BC3419828495BA200E2002E /* OrdersViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4BC6E4B028157138006EA564 = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4BB28157138006EA564 /* AskhanaFinal */,
+				4BC6E4D52815713A006EA564 /* AskhanaFinalTests */,
+				4BC6E4DF2815713A006EA564 /* AskhanaFinalUITests */,
+				4BC6E4BA28157138006EA564 /* Products */,
+				297AA8D049169E8574464600 /* Pods */,
+				2919AA0B12D37394F1957430 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC6E4BA28157138006EA564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4B928157138006EA564 /* AskhanaFinal.app */,
+				4BC6E4D22815713A006EA564 /* AskhanaFinalTests.xctest */,
+				4BC6E4DC2815713A006EA564 /* AskhanaFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC6E4BB28157138006EA564 /* AskhanaFinal */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4BC28157138006EA564 /* AppDelegate.swift */,
+				4BC6E4BE28157138006EA564 /* SceneDelegate.swift */,
+				4BC6E4C228157138006EA564 /* Main.storyboard */,
+				4B04F8DA2848066C0095A87F /* ViewController */,
+				4B04F8D9284806450095A87F /* TableViewCell */,
+				7CC8ED642817D044005D74F0 /* Networking */,
+				4BC6E4C82815713A006EA564 /* Assets.xcassets */,
+				4BC6E4CA2815713A006EA564 /* LaunchScreen.storyboard */,
+				4BC6E4CD2815713A006EA564 /* Info.plist */,
+				4BC6E4C528157138006EA564 /* AskhanaFinal.xcdatamodeld */,
+			);
+			path = AskhanaFinal;
+			sourceTree = "<group>";
+		};
+		4BC6E4D52815713A006EA564 /* AskhanaFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4D62815713A006EA564 /* AskhanaFinalTests.swift */,
+			);
+			path = AskhanaFinalTests;
+			sourceTree = "<group>";
+		};
+		4BC6E4DF2815713A006EA564 /* AskhanaFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4E02815713A006EA564 /* AskhanaFinalUITests.swift */,
+				4BC6E4E22815713A006EA564 /* AskhanaFinalUITestsLaunchTests.swift */,
+			);
+			path = AskhanaFinalUITests;
+			sourceTree = "<group>";
+		};
+		7CC8ED642817D044005D74F0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6E4F72816CE07006EA564 /* FoodNetworkingService.swift */,
+				7CC8ED622817CD8C005D74F0 /* NetworkService.swift */,
+				7CC8ED652817D060005D74F0 /* RequestProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC6E4B828157138006EA564 /* AskhanaFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC6E4E62815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinal" */;
+			buildPhases = (
+				1507A4AE58BD73E4143F96B8 /* [CP] Check Pods Manifest.lock */,
+				4BC6E4B528157138006EA564 /* Sources */,
+				4BC6E4B628157138006EA564 /* Frameworks */,
+				4BC6E4B728157138006EA564 /* Resources */,
+				1929958F2C96F0F3102298B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AskhanaFinal;
+			productName = AskhanaFinal;
+			productReference = 4BC6E4B928157138006EA564 /* AskhanaFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BC6E4D12815713A006EA564 /* AskhanaFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC6E4E92815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinalTests" */;
+			buildPhases = (
+				B03DEF92EF57F6063A61619C /* [CP] Check Pods Manifest.lock */,
+				4BC6E4CE2815713A006EA564 /* Sources */,
+				4BC6E4CF2815713A006EA564 /* Frameworks */,
+				4BC6E4D02815713A006EA564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC6E4D42815713A006EA564 /* PBXTargetDependency */,
+			);
+			name = AskhanaFinalTests;
+			productName = AskhanaFinalTests;
+			productReference = 4BC6E4D22815713A006EA564 /* AskhanaFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BC6E4DB2815713A006EA564 /* AskhanaFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC6E4EC2815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinalUITests" */;
+			buildPhases = (
+				D0CFCA90078707715BA243EB /* [CP] Check Pods Manifest.lock */,
+				4BC6E4D82815713A006EA564 /* Sources */,
+				4BC6E4D92815713A006EA564 /* Frameworks */,
+				4BC6E4DA2815713A006EA564 /* Resources */,
+				05156C37FB62B0F5D2FC217C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC6E4DE2815713A006EA564 /* PBXTargetDependency */,
+			);
+			name = AskhanaFinalUITests;
+			productName = AskhanaFinalUITests;
+			productReference = 4BC6E4DC2815713A006EA564 /* AskhanaFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC6E4B128157138006EA564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4BC6E4B828157138006EA564 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4BC6E4D12815713A006EA564 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4BC6E4B828157138006EA564;
+					};
+					4BC6E4DB2815713A006EA564 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 4BC6E4B828157138006EA564;
+					};
+				};
+			};
+			buildConfigurationList = 4BC6E4B428157138006EA564 /* Build configuration list for PBXProject "AskhanaFinal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC6E4B028157138006EA564;
+			productRefGroup = 4BC6E4BA28157138006EA564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC6E4B828157138006EA564 /* AskhanaFinal */,
+				4BC6E4D12815713A006EA564 /* AskhanaFinalTests */,
+				4BC6E4DB2815713A006EA564 /* AskhanaFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC6E4B728157138006EA564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC6E4CC2815713A006EA564 /* LaunchScreen.storyboard in Resources */,
+				4BC6E4C92815713A006EA564 /* Assets.xcassets in Resources */,
+				4BC6E4C428157138006EA564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4D02815713A006EA564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4DA2815713A006EA564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05156C37FB62B0F5D2FC217C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal-AskhanaFinalUITests/Pods-AskhanaFinal-AskhanaFinalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal-AskhanaFinalUITests/Pods-AskhanaFinal-AskhanaFinalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal-AskhanaFinalUITests/Pods-AskhanaFinal-AskhanaFinalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1507A4AE58BD73E4143F96B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskhanaFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1929958F2C96F0F3102298B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal/Pods-AskhanaFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal/Pods-AskhanaFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AskhanaFinal/Pods-AskhanaFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03DEF92EF57F6063A61619C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskhanaFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0CFCA90078707715BA243EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskhanaFinal-AskhanaFinalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC6E4B528157138006EA564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC8ED662817D060005D74F0 /* RequestProvider.swift in Sources */,
+				7CC8ED632817CD8C005D74F0 /* NetworkService.swift in Sources */,
+				4B04F8D62847BE4E0095A87F /* CartViewController.swift in Sources */,
+				4BC34197284937E900E2002E /* CategoryCollectionViewCell.swift in Sources */,
+				4BC6E4F02816135E006EA564 /* TabController.swift in Sources */,
+				4BC6E4F42816B658006EA564 /* FoodDetailViewController.swift in Sources */,
+				4BC6E4F82816CE07006EA564 /* FoodNetworkingService.swift in Sources */,
+				4B04F8DC28480A140095A87F /* ProfileViewController.swift in Sources */,
+				4BC6E4F22816B592006EA564 /* MenuViewController.swift in Sources */,
+				4BC6E4C128157138006EA564 /* LoginViewController.swift in Sources */,
+				4BC6E4BD28157138006EA564 /* AppDelegate.swift in Sources */,
+				4BC6E4C728157138006EA564 /* AskhanaFinal.xcdatamodeld in Sources */,
+				4BC6E4F62816C369006EA564 /* FoodDetailTableViewCell.swift in Sources */,
+				4BC3419928495BA200E2002E /* OrdersViewController.swift in Sources */,
+				4B9601C52843789D00D4AFAC /* RegisterViewController.swift in Sources */,
+				4B04F8D82847CFE70095A87F /* CartTableViewCell.swift in Sources */,
+				4BC6E4FA2816E2A0006EA564 /* MealDetailViewController.swift in Sources */,
+				4BC6E4BF28157138006EA564 /* SceneDelegate.swift in Sources */,
+				4BC3419B2849DE2A00E2002E /* OrdersTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4CE2815713A006EA564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC6E4D72815713A006EA564 /* AskhanaFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6E4D82815713A006EA564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC6E4E12815713A006EA564 /* AskhanaFinalUITests.swift in Sources */,
+				4BC6E4E32815713A006EA564 /* AskhanaFinalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC6E4D42815713A006EA564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC6E4B828157138006EA564 /* AskhanaFinal */;
+			targetProxy = 4BC6E4D32815713A006EA564 /* PBXContainerItemProxy */;
+		};
+		4BC6E4DE2815713A006EA564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC6E4B828157138006EA564 /* AskhanaFinal */;
+			targetProxy = 4BC6E4DD2815713A006EA564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BC6E4C228157138006EA564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC6E4C328157138006EA564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC6E4CA2815713A006EA564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC6E4CB2815713A006EA564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC6E4E42815713A006EA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC6E4E52815713A006EA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC6E4E72815713A006EA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E37170DC122EDCB3790E36E /* Pods-AskhanaFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AskhanaFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC6E4E82815713A006EA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89216599F5B292E9815EC32C /* Pods-AskhanaFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AskhanaFinal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BC6E4EA2815713A006EA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2DF7DBD1464557298A474D /* Pods-AskhanaFinalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AskhanaFinal.app/AskhanaFinal";
+			};
+			name = Debug;
+		};
+		4BC6E4EB2815713A006EA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8ED98093BB011ECC63BC223 /* Pods-AskhanaFinalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AskhanaFinal.app/AskhanaFinal";
+			};
+			name = Release;
+		};
+		4BC6E4ED2815713A006EA564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4146A492A8494B09439C7CF3 /* Pods-AskhanaFinal-AskhanaFinalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AskhanaFinal;
+			};
+			name = Debug;
+		};
+		4BC6E4EE2815713A006EA564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128850847C5FBA4252C41B92 /* Pods-AskhanaFinal-AskhanaFinalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LeilaCorp.AskhanaFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AskhanaFinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC6E4B428157138006EA564 /* Build configuration list for PBXProject "AskhanaFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC6E4E42815713A006EA564 /* Debug */,
+				4BC6E4E52815713A006EA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC6E4E62815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC6E4E72815713A006EA564 /* Debug */,
+				4BC6E4E82815713A006EA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC6E4E92815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC6E4EA2815713A006EA564 /* Debug */,
+				4BC6E4EB2815713A006EA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC6E4EC2815713A006EA564 /* Build configuration list for PBXNativeTarget "AskhanaFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC6E4ED2815713A006EA564 /* Debug */,
+				4BC6E4EE2815713A006EA564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BC6E4C528157138006EA564 /* AskhanaFinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BC6E4C628157138006EA564 /* AskhanaFinal.xcdatamodel */,
+			);
+			currentVersion = 4BC6E4C628157138006EA564 /* AskhanaFinal.xcdatamodel */;
+			path = AskhanaFinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BC6E4B128157138006EA564 /* Project object */;
+}
